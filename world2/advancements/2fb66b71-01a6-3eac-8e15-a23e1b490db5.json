@@ -149,6 +149,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2023-04-19 15:54:00 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
     "criteria": {
       "has_cobbled_deepslate": "2023-04-16 22:47:19 +0530"
@@ -539,6 +545,7 @@
       "minecraft:spider": "2023-04-18 00:38:41 +0530",
       "minecraft:creeper": "2023-04-16 23:13:02 +0530",
       "minecraft:slime": "2023-04-19 01:35:53 +0530",
+      "minecraft:cave_spider": "2023-04-19 15:48:13 +0530",
       "minecraft:zombie": "2023-04-16 16:41:55 +0530",
       "minecraft:drowned": "2023-04-16 16:32:18 +0530"
     },
@@ -1524,9 +1531,11 @@
       "cooked_cod": "2023-04-18 23:44:03 +0530",
       "poisonous_potato": "2023-04-17 01:25:15 +0530",
       "bread": "2023-04-16 22:12:05 +0530",
+      "golden_apple": "2023-04-19 15:21:06 +0530",
       "suspicious_stew": "2023-04-17 01:26:57 +0530",
       "beetroot": "2023-04-19 02:07:43 +0530",
       "cooked_chicken": "2023-04-16 16:24:02 +0530",
+      "enchanted_golden_apple": "2023-04-19 15:37:32 +0530",
       "cooked_salmon": "2023-04-16 16:45:25 +0530"
     },
     "done": false
@@ -1695,7 +1704,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2023-04-19 02:26:55 +0530"
+      "minecraft:cow": "2023-04-19 02:26:55 +0530",
+      "minecraft:chicken": "2023-04-19 14:51:44 +0530"
     },
     "done": false
   },
