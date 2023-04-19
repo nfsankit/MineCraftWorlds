@@ -538,6 +538,7 @@
       "minecraft:skeleton": "2023-04-16 16:30:31 +0530",
       "minecraft:spider": "2023-04-18 00:38:41 +0530",
       "minecraft:creeper": "2023-04-16 23:13:02 +0530",
+      "minecraft:slime": "2023-04-19 01:35:53 +0530",
       "minecraft:zombie": "2023-04-16 16:41:55 +0530",
       "minecraft:drowned": "2023-04-16 16:32:18 +0530"
     },
@@ -750,6 +751,12 @@
   "minecraft:recipes/misc/blue_dye_from_cornflower": {
     "criteria": {
       "has_cornflower": "2023-04-16 16:39:52 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2023-04-19 01:36:05 +0530"
     },
     "done": true
   },
@@ -1026,6 +1033,12 @@
   "minecraft:recipes/decorations/diorite_wall": {
     "criteria": {
       "has_diorite": "2023-04-16 23:14:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2023-04-19 01:36:05 +0530"
     },
     "done": true
   },
@@ -1512,6 +1525,7 @@
       "poisonous_potato": "2023-04-17 01:25:15 +0530",
       "bread": "2023-04-16 22:12:05 +0530",
       "suspicious_stew": "2023-04-17 01:26:57 +0530",
+      "beetroot": "2023-04-19 02:07:43 +0530",
       "cooked_chicken": "2023-04-16 16:24:02 +0530",
       "cooked_salmon": "2023-04-16 16:45:25 +0530"
     },
@@ -1678,6 +1692,12 @@
       "has_smooth_stone": "2023-04-16 23:38:23 +0530"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2023-04-19 02:26:55 +0530"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
@@ -2195,6 +2215,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2023-04-19 01:36:05 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2023-04-16 16:12:18 +0530"
@@ -2420,6 +2446,12 @@
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_granite": "2023-04-16 22:35:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2023-04-19 02:26:55 +0530"
     },
     "done": true
   },
